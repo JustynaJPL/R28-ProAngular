@@ -1,0 +1,25 @@
+<div class="bg-primary p-3">
+  To jest komponent OnDemand.
+</div>
+<div class="row">
+  <div class="col-md-12 m-t-1">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <router-outlet name='left'></router-outlet>
+  </div>
+  <div class="col-md-6">
+    <router-outlet name='right'></router-outlet>
+  </div>
+</div>
+<button class="btn btn-secondary m-t-3" routerLink='/ondemand'>
+  Zwykły
+</button>
+<button class="btn btn-secondary m-t-3" routerLink='/ondemand/swap'>
+  Odwrócony
+</button>
+<button class="btn btn-primary m-t-3" routerLink='/'>
+  Wstecz
+</button>
