@@ -6,9 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-#Data
+##Data
 
-In order to browse data please start a json server with a npm run json command from the command line. Json port is set to 3500. 
+In order to browse data please start a json server with a `npm run json` command from the command line. Json port is set to 3500. 
 
 ## Code scaffolding
 
